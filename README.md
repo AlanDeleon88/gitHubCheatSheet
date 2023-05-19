@@ -9,13 +9,13 @@
 
 
 ## Step: 2 Clone the repo to your machine
-   - Copy the repo url by clicking on the 'Code' button and copy the git url.
+   - Locate the repo url by clicking on the 'Code' button and copy the git url.
        ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/6752f20c-7b2d-49bf-b14a-c3abb1d5c754)
 
-   - Navigate to directory where you want to clone the repo.
+   - Navigate to the directory where you want to clone the repo.
       ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/0b7438d8-620c-4b1a-9bab-af958397d565)
 
-   - Run the command git clone in the terminal.
+   - Run the command ```git clone <APP ACADEMY REPO URL HERE> ``` in the terminal.
     ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/1290d842-b73c-466c-85b7-c3356eeccd3d)
 
    - Navigate to the directory where the repo was cloned.
@@ -23,7 +23,7 @@
 
 
 ## Step 3: Create your own repo for the project.
-   - Click on the plus on the top left of the github page.
+   - Click on the plus in the top left of the github page.
    ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/862e5d5d-8db5-45aa-98cc-a5248cbb1bd4)
 
    - Name repo and select owner as yourself, then set repo to private.
@@ -33,7 +33,7 @@
 ## Step 4: Redirect cloned repo to your newly created repo
    - On your new repo page, copy the repo url.
         ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/71bb2b6e-cd93-4636-95d4-eb52a8e43496)
-    - Back on the terminal, make sure you are in the folder you cloned the app academy repo in.
+    - Back in the terminal, make sure you are in the folder you cloned the app academy repo in.
       Run the git command : 
 
        ```
@@ -47,7 +47,7 @@
       ```
       ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/4328bbee-d3a4-491c-b943-f35ce50745d2)
 
-   - Run git command: ```git add .```  to stage all the files in the folder.
+   - Run git command: ```git add .```  to add all the files in the folder to the staging area for git.
    ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/1130c339-846e-438f-84dc-526a0dedb724)
 
    - Run git command: ```git push ``` to push all the files to the newly created repo.
@@ -60,11 +60,10 @@
 ## Step 5: Invite pair programming partner as a collaborator.
    - Navigate to settings for the git hub repo.
         ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/1688aa15-54c8-498d-b2a3-621337351c20)
-   - Navigate to collaborators.
-        ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/1b954797-924b-4093-aae1-29e51b2d675f)
+   - Navigate to collaborators then click on 'Add People'
+        ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/63a7799c-44ec-4c39-b79d-cf51ca3c685e)
    - Add partner's github username to collaborators.
 
-        ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/4f4b4bda-6de6-4e8f-8bd4-5c574b97a48e)
 
 # Steps for Navigator
 ## Step 1: Accept email invitation to the repo.
