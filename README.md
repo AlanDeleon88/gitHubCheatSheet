@@ -35,20 +35,21 @@ have a link for a more detailed doc with multiple git commands.
    - On your new repo page, copy the repo url.
         ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/71bb2b6e-cd93-4636-95d4-eb52a8e43496)
     - Back on the terminal, make sure you are in the folder you cloned the app academy repo in.
-    - Run the git command : 
-      ```
+      Run the git command : 
+
+       ```
            git remote set-url origin [YOUR REPO URL HERE]
-      ```
+       ```
    ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/61650088-70f6-4ca8-9b8b-d41b31aabae1)
    
    - Check to make sure the repo is now connected to your newly created repo by running the git command: 
       ```
         git remote -v
       ```
-      ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/a5f21a9c-f325-4d99-ba29-b6ae99cdc205)
+      ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/4328bbee-d3a4-491c-b943-f35ce50745d2)
 
-   - run git command: <git add .> to stage all the files in the folder.
-   - run git command: <git push> to push all the files to the newly created repo.
+   - Run git command: ```git add .```  to stage all the files in the folder.
+   - Run git command: ```git push ``` to push all the files to the newly created repo.
 
 - step 5 Invite pair programming partner as a collaborator.
     - navigate to settings for the git hub repo.
