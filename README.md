@@ -23,7 +23,7 @@
 
 
 ## Step 3: Create your own repo for the project.
-   - Click on the plus in the top left of the github page.
+   - Click on the plus in the top right of the github page.
    ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/862e5d5d-8db5-45aa-98cc-a5248cbb1bd4)
 
    - Name repo and select owner as yourself, then set repo to private.
@@ -46,9 +46,6 @@
         git remote -v
       ```
       ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/4328bbee-d3a4-491c-b943-f35ce50745d2)
-
-   - Run git command: ```git add .```  to add all the files in the folder to the staging area for git.
-   ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/1130c339-846e-438f-84dc-526a0dedb724)
 
    - Run git command: ```git push ``` to push all the files to the newly created repo.
    ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/27d668d4-8761-40d8-88ff-ded37d5e0d08)
