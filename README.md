@@ -9,14 +9,9 @@
 
 
 ## Step: 2 Clone the repo to your machine
-   - Locate the repo url by clicking on the 'Code' button and copy the git url.
-       ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/6752f20c-7b2d-49bf-b14a-c3abb1d5c754)
+   - Copy and paste the npx tiged command into your terminal to clone the repo.
+      ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/a082ba5e-c236-42fe-9f29-e5c3b23e2b50)
 
-   - Navigate to the directory where you want to clone the repo.
-      ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/0b7438d8-620c-4b1a-9bab-af958397d565)
-
-   - Run the command ```git clone <APP ACADEMY REPO URL HERE> ``` in the terminal.
-    ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/1290d842-b73c-466c-85b7-c3356eeccd3d)
 
    - Navigate to the directory where the repo was cloned.
      ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/754504f1-8166-4ad7-8790-f85d96bbf9d7)
@@ -34,21 +29,23 @@
    - On your new repo page, copy the repo url.
         ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/71bb2b6e-cd93-4636-95d4-eb52a8e43496)
     - Back in the terminal, make sure you are in the folder you cloned the app academy repo in.
-      Run the git command : 
+      Run the git commands : 
 
        ```
-           git remote set-url origin <YOUR REPO URL HERE>
+       git init
+       git add .
+       git commit -m "first commit"
+       git branch -M main
+       git remote add origin <YOUR REPO URL HERE>
+       git push -u origin main
+           
        ```
-   ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/61650088-70f6-4ca8-9b8b-d41b31aabae1)
-   - This command will connect the cloned repo to your newly created repo.
    - Check to make sure the repo is now connected to your newly created repo by running the git command: 
       ```
         git remote -v
       ```
       ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/4328bbee-d3a4-491c-b943-f35ce50745d2)
 
-   - Run git command: ```git push ``` to push all the files to the newly created repo.
-   ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/27d668d4-8761-40d8-88ff-ded37d5e0d08)
    - NOTE: Depending on how you set up git-hub-credentials you may or may not need to have to put your github account info.
    - Your new Repo should now be populated with the project files.
     ![image](https://github.com/AlanDeleon88/gitHubCheatSheet/assets/92609467/1f995d6a-5c93-4e9c-8723-b8620a647467)
